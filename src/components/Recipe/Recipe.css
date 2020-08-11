@@ -1,0 +1,42 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.recipe-data {
+    background-color: rgba(255, 255, 255, 0.40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    width: 400px;
+    margin: 10px;
+    padding:25px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.recipe-data h1 {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.recipe-data img {
+    border-radius: 20px;
+}
+
+.recipe-data p{
+    font-size: 1.0rem;
+}
+
+.recipe-data ul {
+    margin:0;
+    padding: 10px;
+}
+
+.recipe-data ul li {
+    font-size: 0.8rem;
+}
+
+
