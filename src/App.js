@@ -7,7 +7,7 @@ function App() {
 
   const api = {
     id: '3fc5b97b',
-    key: '9dd134bb7b4208189e1af3bb27f9eb6f'
+    key: process.env.REACT_APP_KEY
   }
 
   const [recipes, setRecipes] = useState([])
